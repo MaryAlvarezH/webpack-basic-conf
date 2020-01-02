@@ -1,10 +1,11 @@
 {
-  "name": "epy",
-  "version": "1.0.0",
+  "name": "epy-styles",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack && open index.html"
+    "start": "webpack && open index.html",
+    "build": "webpack --watch --mode development"
   },
   "keywords": [],
   "author": "",
