@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>play icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="play-icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon-Circle-Cross">
+            <rect id="16X16" x="0" y="0" width="16" height="16"></rect>
+            <g id="Shape-Circle-Cross" fill="#9B9B9B">
+                <path d="M8,15 C4.14,15 1,11.859 1,8 C1,4.14 4.14,1 8,1 C11.859,1 15,4.14 15,8 C15,11.859 11.859,15 8,15 M0,8 C0,3.589 3.589,0 8,0 C12.411,0 16,3.589 16,8 C16,12.411 12.411,16 8,16 C3.589,16 0,12.411 0,8 Z" id="Fill-1"></path>
+            </g>
+        </g>
+        <path d="M10.8933333,8.08 L7.16,10.88 C7.11581722,10.9131371 7.05313708,10.9041828 7.02,10.86 C7.00701779,10.8426904 7,10.821637 7,10.8 L7,5.2 C7,5.14477153 7.04477153,5.1 7.1,5.1 C7.12163702,5.1 7.14269038,5.10701779 7.16,5.12 L10.8933333,7.92 C10.9375161,7.95313708 10.9464704,8.01581722 10.9133333,8.06 C10.9076479,8.06758057 10.9009139,8.07431458 10.8933333,8.08 Z" id="Triangle" stroke="#9B9B9B"></path>
+    </g>
+</svg>

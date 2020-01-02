@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>plus sign icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons" transform="translate(-65.000000, -626.000000)">
+            <g id="plus-sign-icon" transform="translate(63.000000, 624.000000)">
+                <g id="Icon-Add">
+                    <rect id="16X16" x="0" y="0" width="16" height="16"></rect>
+                    <path d="M8.5,7.5 L8.5,2.5 C8.5,2.224 8.276,2 8,2 C7.724,2 7.5,2.224 7.5,2.5 L7.5,7.5 L2.5,7.5 C2.224,7.5 2,7.724 2,8 C2,8.276 2.224,8.5 2.5,8.5 L7.5,8.5 L7.5,13.5 C7.5,13.776 7.724,14 8,14 C8.276,14 8.5,13.776 8.5,13.5 L8.5,8.5 L13.5,8.5 C13.776,8.5 14,8.276 14,8 C14,7.724 13.776,7.5 13.5,7.5 L8.5,7.5 Z" id="add" fill="#9B9B9B"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

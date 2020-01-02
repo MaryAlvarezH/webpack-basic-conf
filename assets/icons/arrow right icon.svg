@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="12px" viewBox="0 0 16 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>arrow right icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons" transform="translate(-160.000000, -578.000000)">
+            <g id="arrow-right-icon" transform="translate(160.000000, 576.000000)">
+                <g id="Icon-Arrow-Right">
+                    <rect id="16X16" x="0" y="0" width="16" height="16"></rect>
+                    <g id="Shape-Arrow-Right" transform="translate(0.000000, 2.000000)" fill="#9B9B9B">
+                        <path d="M15.867,5.66625 L15.87,5.66325 L10.87,0.16325 L10.867,0.16625 C10.861,0.16025 10.86,0.15225 10.854,0.14625 C10.658,-0.04875 10.342,-0.04875 10.147,0.14625 C9.957,0.33525 9.955,0.63725 10.133,0.83325 L10.13,0.83625 L14.37,5.49925 L0.5,5.49925 C0.224,5.49925 0,5.72325 0,5.99925 C0,6.27625 0.224,6.49925 0.5,6.49925 L14.37,6.49925 L10.13,11.16425 L10.133,11.16625 C9.955,11.36325 9.957,11.66425 10.147,11.85325 C10.342,12.04825 10.658,12.04825 10.854,11.85325 C10.86,11.84725 10.862,11.83925 10.867,11.83325 L10.87,11.83525 L15.87,6.33625 L15.867,6.33325 C16.039,6.14325 16.039,5.85625 15.867,5.66625" id="Fill-1"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

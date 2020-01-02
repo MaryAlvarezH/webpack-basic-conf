@@ -2,12 +2,693 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="dist/main.css" />
+    <link rel="stylesheet" href="dist/css/epy.css" />
     <title>Document name</title>
   </head>
-  <body>
-    <h1>CSS Modules demo</h1>
+  <body style="padding: 40px 60px">
+    <!-- ************************FONTS************************** -->
+    <div style="margin-top:50px">
+      <h5>Fonts</h5>
+      <div class="row">
+        <div class="col s2">
+          <span class="title">title</span>
+        </div>
+        <div class="col s2">
+          <span class="subtitle">subtitle</span>
+        </div>
+        <div class="col s2">
+          <span class="text-regular">text-regular</span>
+        </div>
+        <div class="col s2">
+          <span class="text-suggest">text-suggest</span>
+        </div>
+        <div class="col s2">
+          <span class="text-small">text-small</span>
+        </div>
+        <div class="col s2">
+          <span class="text-danger">text-danger</span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s2">
+          <span class="text-green">text-green</span>
+        </div>
+        <div class="col s2">
+          <span class="text-blue">text-blue</span>
+        </div>
+        <div class="col s2">
+          <span class="text-light-green">text-light-green</span>
+        </div>
+        <div class="col s2">
+          <span class="text-lavander">text-lavander</span>
+        </div>
+        <div class="col s2">
+          <span class="text-purple">text-purple</span>
+        </div>
+        <div class="col s2">
+          <span class="text-yellow">text-yellow</span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s2">
+          <span class="text-red">text-red</span>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <!-- ************************CONTENT************************** -->
+    <div style="margin-top:50px">
+      <h5>Content (background colors)</h5>
+      <div class="row">
+        <div class="col s2">
+          <div style="width: 70%; height: 30px;" class="content-green"></div>
+          <span style="display:display-block">content-green</span>
+        </div>
+        <div class="col s2">
+          <div style="width: 70%; height: 30px;" class="content-blue"></div>
+          <span style="display:display-block">content-blue</span>
+        </div>
+        <div class="col s2">
+          <div
+            style="width: 70%; height: 30px;"
+            class="content-light-green"
+          ></div>
+          <span style="display:display-block">content-light-green</span>
+        </div>
+        <div class="col s2">
+          <div style="width: 70%; height: 30px;" class="content-lavander"></div>
+          <span style="display:display-block">content-lavander</span>
+        </div>
+        <div class="col s2">
+          <div style="width: 70%; height: 30px;" class="content-purple"></div>
+          <span style="display:display-block">content-purple</span>
+        </div>
+        <div class="col s2">
+          <div style="width: 70%; height: 30px;" class="content-yellow"></div>
+          <span style="display:display-block">content-yellow</span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s2">
+          <div style="width: 70%; height: 30px;" class="content-red"></div>
+          <span style="display:display-block">content-red</span>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <!-- ************************BUTTONS************************** -->
+    <div style="margin-top:50px">
+      <h5>Buttons</h5>
+      <div class="row">
+        <div class="col s2">
+          <button class="btn btn-default">
+            default
+          </button>
+          <span style="display:block">btn btn-default</span>
+        </div>
+        <div class="col s2">
+          <button class="btn btn-primary">
+            primary
+          </button>
+          <span style="display:block">btn btn-primary</span>
+        </div>
+        <div class="col s2">
+          <button class="btn btn-primary" disabled>
+            disabled
+          </button>
+          <span style="display:block">btn btn-primary disabled</span>
+        </div>
+        <div class="col s2">
+          <button class="btn btn-outline">
+            outline
+          </button>
+          <span style="display:block">btn btn-outline</span>
+        </div>
+        <div class="col s2">
+          <button class="btn btn-primary btn-outline">
+            primary outline
+          </button>
+          <span style="display:block">btn btn-primary btn-outline</span>
+        </div>
+        <div class="col s2">
+          <button class="btn btn-primary btn-outline" disabled>
+            disabled
+          </button>
+          <span style="display:block"
+            >btn btn-primary btn-outline disabled</span
+          >
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s2">
+          <button class="btn btn-destructive">
+            destructive
+          </button>
+          <span style="display:block">btn btn-destructive</span>
+        </div>
+        <div class="col s2">
+          <button class="btn btn-destructive btn-outline">
+            destructive
+          </button>
+          <span style="display:block">btn btn-destructive btn-outline</span>
+        </div>
+        <div class="col s2">
+          <div class="btn btn-border-none btn-icon">
+            <img
+              class="icon"
+              src="./assets/icons/create_campaign_icon_on.svg"
+            />
+            <span class="text">Create a new campaign</span>
+          </div>
+          <span style="display:block">btn btn-border-none btn-icon</span>
+        </div>
+        <div class="col s2">
+          <div class="btn btn-border-none btn-icon">
+            <span class="text">Create a new campaign</span>
+            <img
+              class="icon"
+              src="./assets/icons/create_campaign_icon_on.svg"
+            />
+          </div>
+          <span style="display:block">btn btn-border-none btn-icon</span>
+        </div>
+        <div class="col s2">
+          <button class="btn btn-link">
+            link
+          </button>
+          <span style="display:block">btn btn-link</span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s2">
+          <button class="btn btn-primary btn-tight">
+            tight
+          </button>
+          <span style="display:block">btn btn-primary btn-tight</span>
+        </div>
+        <div class="col s2">
+          <button class="btn btn-primary btn-small">
+            small
+          </button>
+          <span style="display:block">btn btn-primary btn-small</span>
+        </div>
+        <div class="col s2">
+          <button class="btn btn-primary">
+            default
+          </button>
+          <span style="display:block">btn btn-primary</span>
+        </div>
+        <div class="col s2">
+          <button class="btn btn-primary btn-large">
+            large
+          </button>
+          <span style="display:block">btn btn-primary btn-large</span>
+        </div>
+        <div class="col s2">
+          <button class="btn btn-square-small">
+            <img class="icon" src="./assets/icons/change_card.svg" />
+          </button>
+          <span style="display:block">btn btn-square-small</span>
+        </div>
+        <div class="col s2">
+          <button class="btn btn-square-small btn-info">
+            <img class="icon" src="./assets/icons/change_table.svg" />
+          </button>
+          <span style="display:block">btn btn-square-small btn-info</span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s2">
+          <button class="btn btn-default btn-square">
+            <img class="icon" src="./assets/google-merchant-center.png" />
+            default square
+          </button>
+          <span style="display:block">btn btn-default btn-square</span>
+        </div>
+        <div class="col s2">
+          <button class="btn btn-default btn-square">
+            <img class="icon" src="./assets/google-merchant-center.png" />
+            default square
+            <img class="icon" src="./assets/icons/check_on_fill_icon.svg" />
+          </button>
+          <span style="display:block">btn btn-default btn-square</span>
+        </div>
+        <div class="col s2">
+          <button class="btn btn-primary btn-square">
+            <img class="icon" src="./assets/icons/not_sure_white_icon.svg" />
+            primary square
+          </button>
+          <span style="display:block">btn btn-primary btn-square</span>
+        </div>
+        <div class="col s4">
+          <button class="btn btn-default btn-rectangle">
+            <img class="icon" src="./assets/icons/import_icon .svg" />
+            primary rectangle
+          </button>
+          <span style="display:block">btn btn-default btn-rectangle</span>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <!-- ************************INPUT************************** -->
+    <div style="margin-top:50px">
+      <h5>Inputs</h5>
+      <div class="row">
+        <div class="col s2">
+          <div class="input input-box">
+            <div class="wrapper-input">
+              <input type="text" placeholder="Campaign name" />
+            </div>
+          </div>
+          <span>input input-box</span>
+        </div>
+        <div class="col s2">
+          <div class="input input-box">
+            <div class="wrapper-input">
+              <img
+                class="icon icon-left"
+                src="./assets/icons/search_icon.svg"
+              />
+              <input type="text" />
+            </div>
+          </div>
+          <span>input input-box</span>
+        </div>
+        <div class="col s2">
+          <div class="input input-box">
+            <div class="wrapper-input">
+              <input type="text" />
+              <img
+                class="icon icon-right"
+                src="./assets/icons/search_icon.svg"
+              />
+            </div>
+          </div>
+          <span>input input-box</span>
+        </div>
 
-    <script src="dist/main.js"></script>
+        <div class="col s2">
+          <div class="input input-line">
+            <div class="wrapper-input">
+              <input type="text" />
+            </div>
+          </div>
+          <span>input input-line</span>
+        </div>
+
+        <div class="col s2">
+          <div class="input input-line">
+            <div class="wrapper-input">
+              <input type="email" placeholder="email" value="1234" />
+            </div>
+          </div>
+          <span>input input-line</span>
+        </div>
+
+        <div class="col s2">
+          <div class="input input-line">
+            <div class="wrapper-input">
+              <input type="email" placeholder="country" />
+              <img class="icon" src="./assets/icons/search_icon.svg" />
+            </div>
+          </div>
+          <span>input input-line</span>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <!-- ************************SELECT************************** -->
+    <div style="margin-top:50px; height: 950px;">
+      <h5>Selects</h5>
+      <div class="row">
+        <div class="col s3" style="height: 230px;">
+          <span style="display:block">select select-primary</span>
+          <div class="select select-primary">
+            <div class="select-wrapper">
+              <div class="select-trigger">
+                <div class="select-value">
+                  <span>Maximaze Clicks</span>
+                </div>
+                <div class="arrow arrow-open"></div>
+              </div>
+              <div class="options-wrapper">
+                <span class="option selected">Maximaze Clicks</span>
+                <span class="option">Maximaze Revenue</span>
+                <span class="option">Maximaze Impressions</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s3">
+          <span style="display:block">select select-primary active</span>
+          <div class="select select-primary active">
+            <div class="select-wrapper">
+              <div class="select-trigger">
+                <div class="select-value">
+                  <span>Maximaze Clicks</span>
+                </div>
+                <div class="arrow arrow-open"></div>
+              </div>
+              <div class="options-wrapper">
+                <span class="option selected">Maximaze Clicks</span>
+                <span class="option">Maximaze Revenue</span>
+                <span class="option">Maximaze Impressions</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s3">
+          <span style="display:block">select select-outline</span>
+          <div class="select select-outline">
+            <div class="select-wrapper">
+              <div class="select-trigger">
+                <span>Maximaze Clicks</span>
+                <div class="arrow"></div>
+              </div>
+              <div class="options-wrapper">
+                <span class="option selected">Maximaze Clicks</span>
+                <span class="option">Maximaze Revenue</span>
+                <span class="option">Maximaze Impressions</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s3">
+          <span style="display:block">select select-outline active</span>
+          <div class="select select-outline active">
+            <div class="select-wrapper">
+              <div class="select-trigger">
+                <div class="select-value">
+                  <span>Maximaze Clicks</span>
+                </div>
+                <div class="arrow arrow-open"></div>
+              </div>
+              <div class="options-wrapper">
+                <span class="option selected">Maximaze Clicks</span>
+                <span class="option">Maximaze Revenue</span>
+                <span class="option">Maximaze Impressions</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row" style="height: 250px;">
+        <div class="col s3">
+          <span style="display:block">select select-outline</span>
+          <div class="select select-outline">
+            <div class="select-wrapper">
+              <div class="select-trigger">
+                <img class="icon" src="./assets/icons/user_editor.svg" />
+                <div class="select-value">
+                  <span>Editor</span>
+                </div>
+                <div class="arrow arrow-open"></div>
+              </div>
+              <div class="options-wrapper">
+                <span class="option selected">Editor</span>
+                <span class="option">Administrator</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s3">
+          <span style="display:block">select select-outline active</span>
+          <div class="select select-outline active">
+            <div class="select-wrapper">
+              <div class="select-trigger">
+                <img class="icon" src="./assets/icons/user_editor.svg" />
+                <div class="select-value">
+                  <span>Editor</span>
+                </div>
+                <div class="arrow arrow-open"></div>
+              </div>
+              <div class="options-wrapper">
+                <span class="option selected">Editor</span>
+                <span class="option">Administrator</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s3">
+          <span style="display:block"
+            >select select-primary select-outline</span
+          >
+          <div class="select select-primary select-outline">
+            <div class="select-wrapper">
+              <div class="select-trigger">
+                <div class="select-value">
+                  <span>Maximaze Clicks</span>
+                </div>
+                <div class="arrow arrow-open"></div>
+              </div>
+              <div class="options-wrapper">
+                <span class="option selected">Maximaze Clicks</span>
+                <span class="option">Maximaze Revenue</span>
+                <span class="option">Maximaze Impressions</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s3">
+          <span style="display:block"
+            >select select-primary select-outline active</span
+          >
+          <div class="select select-primary select-outline active">
+            <div class="select-wrapper">
+              <div class="select-trigger">
+                <div class="select-value">
+                  <span>Maximaze Clicks</span>
+                </div>
+                <div class="arrow arrow-open"></div>
+              </div>
+              <div class="options-wrapper">
+                <span class="option selected">Maximaze Clicks</span>
+                <span class="option">Maximaze Revenue</span>
+                <span class="option">Maximaze Impressions</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s3">
+          <span style="display:block">select select-border-none</span>
+          <div class="select select-border-none">
+            <div class="select-wrapper">
+              <div class="select-trigger">
+                <div class="select-value">
+                  <span class="text-green">Maximaze Clicks</span>
+                </div>
+                <div class="arrow arrow-open"></div>
+              </div>
+              <div class="options-wrapper">
+                <span class="option selected">Maximaze Clicks</span>
+                <span class="option">Maximaze Revenue</span>
+                <span class="option">Maximaze Impressions</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s3">
+          <span style="display:block">select select-border-none active</span>
+          <div class="select select-border-none active">
+            <div class="select-wrapper">
+              <div class="select-trigger">
+                <div class="select-value">
+                  <span class="text-green">Maximaze Clicks</span>
+                </div>
+                <div class="arrow arrow-open"></div>
+              </div>
+              <div class="options-wrapper">
+                <span class="option selected">Maximaze Clicks</span>
+                <span class="option">Maximaze Revenue</span>
+                <span class="option">Maximaze Impressions</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s3">
+          <span style="display:block">select select-line</span>
+          <div class="select select-line">
+            <div class="select-wrapper">
+              <div class="select-trigger">
+                <div class="select-value">
+                  <span>Maximaze Clicks</span>
+                </div>
+                <div class="arrow arrow-open"></div>
+              </div>
+              <div class="options-wrapper">
+                <span class="option selected">Maximaze Clicks</span>
+                <span class="option">Maximaze Revenue</span>
+                <span class="option">Maximaze Impressions</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s3">
+          <span style="display:block">select select-line active</span>
+          <div class="select select-line active">
+            <div class="select-wrapper">
+              <div class="select-trigger">
+                <div class="select-value">
+                  <span>Maximaze Clicks</span>
+                </div>
+                <div class="arrow arrow-open"></div>
+              </div>
+              <div class="options-wrapper">
+                <div class="input input-box">
+                  <div class="wrapper-input">
+                    <input type="text" />
+                    <img
+                      class="icon icon-right"
+                      src="./assets/icons/search_icon.svg"
+                    />
+                  </div>
+                </div>
+                <span class="option selected">Maximaze Clicks</span>
+                <span class="option">Maximaze Revenue</span>
+                <span class="option">Maximaze Impressions</span>
+                <span class="option">Maximaze Clicks</span>
+                <span class="option">Maximaze Revenue</span>
+                <span class="option">Maximaze Impressions</span>
+                <span class="option">Maximaze Clicks</span>
+                <span class="option">Maximaze Revenue</span>
+                <span class="option">Maximaze Impressions</span>
+                <span class="option">Maximaze Clicks</span>
+                <span class="option">Maximaze Revenue</span>
+                <span class="option">Maximaze Impressions</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <!-- ************************TOOLTIP************************** -->
+    <div style="margin-top:50px">
+      <h5>Tooltips</h5>
+      <div class="row">
+        <div class="col s2">
+          <span>tooltip</span>
+          <div class="tooltip">
+            <div class="tooltip-header">
+              <span class="tooltip-title">tooltip title?</span>
+            </div>
+            <div class="tooltip-content">
+              tooltip content
+            </div>
+          </div>
+        </div>
+        <div class="col s2">
+          <span>tooltip active</span>
+          <div class="tooltip active">
+            <div class="tooltip-header">
+              <span class="tooltip-title">tooltip title?</span>
+            </div>
+            <div class="tooltip-content">
+              tooltip content
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <!-- ************************LOADERS************************** -->
+    <div style="margin-top:50px">
+      <h5>Loaders</h5>
+      <h6>bot-loader</h6>
+      <div class="row">
+        <div class="col s1">
+          <div class="bot-loader"></div>
+        </div>
+      </div>
+      <h6>bar-loader</h6>
+      <div class="row">
+        <div class="wrapper">
+          <span>bar-loader (100%)</span>
+          <div class="bar-loader"></div>
+          <span>bar-loader title (25%)</span>
+          <div class="bar-loader title"></div>
+          <span>bar-loader subtitle (20%)</span>
+          <div class="bar-loader subtitle"></div>
+          <span>bar-loader detail (92px)</span>
+          <div class="bar-loader detail"></div>
+          <span>bar-loader detail dark</span>
+          <div class="bar-loader detail dark"></div>
+        </div>
+      </div>
+      <h6>table-loader</h6>
+      <div class="row">
+        <div class="col s4">
+          <span>table-loader col-2</span>
+          <div class="table-loader col-2">
+            <div class="bar-loader"></div>
+            <div class="bar-loader"></div>
+            <div class="bar-loader"></div>
+            <div class="bar-loader"></div>
+          </div>
+        </div>
+        <div class="col s4">
+          <span>table-loader col-3</span>
+          <div class="table-loader col-3">
+            <div class="bar-loader"></div>
+            <div class="bar-loader"></div>
+            <div class="bar-loader"></div>
+            <div class="bar-loader"></div>
+            <div class="bar-loader"></div>
+            <div class="bar-loader"></div>
+          </div>
+        </div>
+        <div class="col s4">
+          <span>table-loader col-4</span>
+          <div class="table-loader col-4">
+            <div class="bar-loader"></div>
+            <div class="bar-loader"></div>
+            <div class="bar-loader"></div>
+            <div class="bar-loader"></div>
+            <div class="bar-loader"></div>
+            <div class="bar-loader"></div>
+            <div class="bar-loader"></div>
+            <div class="bar-loader"></div>
+          </div>
+        </div>
+      </div>
+      <h6>stat-loader</h6>
+      <div class="row">
+        <div class="stat-loader">
+          <div class="bar-loader title"></div>
+          <div class="bar-loader subtitle"></div>
+          <div class="table-loader col-5">
+            <div class="bar-loader"></div>
+            <div class="bar-loader"></div>
+            <div class="bar-loader"></div>
+            <div class="bar-loader"></div>
+            <div class="bar-loader"></div>
+            <div class="bar-loader"></div>
+            <div class="bar-loader"></div>
+            <div class="bar-loader"></div>
+            <div class="bar-loader"></div>
+            <div class="bar-loader"></div>
+          </div>
+
+          <div class="bar-loader chart-loader">
+            <div class="chart-stroke-1"></div>
+            <div class="chart-stroke-2"></div>
+            <div class="chart-stroke-3"></div>
+            <div class="chart-stroke-4"></div>
+            <div class="chart-stroke-5"></div>
+            <div class="chart-stroke-6"></div>
+          </div>
+        </div>
+      </div>
+      <h6>progress-bar</h6>
+      <!-- <div class="bar-loader">
+        <div class="progress-bar" value="77"></div>
+        <p class="message">Cargando... 20% Completado</p>
+      </div> -->
+
+      <progress max="100" value="10"></progress>
+    </div>
+    <hr />
   </body>
 </html>

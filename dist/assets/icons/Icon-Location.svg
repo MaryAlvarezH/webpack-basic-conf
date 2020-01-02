@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon-Location</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons" transform="translate(-112.000000, -497.000000)">
+            <g id="Icon-Location" transform="translate(112.000000, 497.000000)">
+                <rect id="16X16" x="0" y="0" width="16" height="16"></rect>
+                <g id="target-icon" fill="#9B9B9B">
+                    <g id="Shape-Location">
+                        <path d="M8,13 C5.243,13 3,10.757 3,8 C3,5.243 5.243,3 8,3 C10.757,3 13,5.243 13,8 C13,10.757 10.757,13 8,13 M15.5,7.5 L13.975,7.5 C13.733,4.59 11.41,2.267 8.5,2.025 L8.5,0.5 C8.5,0.224 8.276,0 8,0 C7.724,0 7.5,0.224 7.5,0.5 L7.5,2.025 C4.59,2.267 2.267,4.59 2.025,7.5 L0.5,7.5 C0.224,7.5 0,7.724 0,8 C0,8.276 0.224,8.5 0.5,8.5 L2.025,8.5 C2.267,11.41 4.59,13.733 7.5,13.975 L7.5,15.5 C7.5,15.776 7.724,16 8,16 C8.276,16 8.5,15.776 8.5,15.5 L8.5,13.975 C11.41,13.733 13.733,11.41 13.975,8.5 L15.5,8.5 C15.776,8.5 16,8.276 16,8 C16,7.724 15.776,7.5 15.5,7.5" id="Fill-1"></path>
+                        <path d="M8,5 C6.343,5 5,6.343 5,8 C5,9.657 6.343,11 8,11 C9.657,11 11,9.657 11,8 C11,6.343 9.657,5 8,5" id="Fill-3"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

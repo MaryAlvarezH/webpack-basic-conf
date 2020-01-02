@@ -1,0 +1,84 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass mixins.
+// -----------------------------------------------------------------------------
+
+/// Event wrapper
+/// @author Harry Roberts
+/// @param {Bool} $self [false] - Whether or not to include current selector
+/// @link https://twitter.com/csswizardry/status/478938530342006784 Original tweet from Harry Roberts
+@mixin on-event($self: false) {
+  @if $self {
+    &,
+    &:hover,
+    &:active,
+    &:focus {
+      @content;
+    }
+  } @else {
+    &:hover,
+    &:active,
+    &:focus {
+      @content;
+    }
+  }
+}
+
+/// Make a context based selector a little more friendly
+/// @author Hugo Giraudel
+/// @param {String} $context
+@mixin when-inside($context) {
+  #{$context} & {
+    @content;
+  }
+}
+
+// BUTTON
+
+@mixin btn-figure {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+@mixin btn-border-none {
+  border: none;
+  background-color: transparent;
+  padding-right: 8px;
+  padding-left: 8px;
+
+  &:hover,
+  &:focus {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+  }
+}
+
+// SELECT
+
+@mixin select-trigger($color) {
+  align-items: center;
+  color: $dove-gray;
+  cursor: pointer;
+  display: flex;
+  font-size: 16px;
+  height: 40px;
+  justify-content: space-between;
+  line-height: 20px;
+  position: relative;
+
+  .arrow {
+    height: 16px;
+    margin-top: 12px;
+    right: 0;
+    width: 16px;
+
+    @if $color == $jungle-green {
+      background: url("../assets/icons/arrow_down_green.svg") no-repeat;
+    } @else if $color == "dark-green" {
+      background: url("../assets/icons/arrow_down_dark_green.svg") no-repeat;
+    } @else {
+      background: url("../assets/icons/arrow_down_white.svg") no-repeat;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon-Calendar</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons" transform="translate(-112.000000, -449.000000)">
+            <g id="Icon-Calendar" transform="translate(112.000000, 449.000000)">
+                <rect id="16X16" x="0" y="0" width="16" height="16"></rect>
+                <g id="calendar-2-icon" fill="#9B9B9B">
+                    <g id="Shape-Calendar">
+                        <path d="M14.5,15 L1.5,15 C1.224,15 1,14.759 1,14.463 L1,6 L15,6 L15,14.463 C15,14.759 14.775,15 14.5,15 M1.5,2.481 L3.5,2.481 L3.5,3.5 C3.5,3.776 3.724,4 4,4 C4.276,4 4.5,3.776 4.5,3.5 L4.5,2.5 L11.542,2.5 L11.542,3.498 L11.542,3.5 C11.542,3.776 11.766,4 12.042,4 C12.318,4 12.542,3.776 12.542,3.5 L12.542,3.5 L12.542,2.481 L14.5,2.481 C14.775,2.481 15,2.722 15,3.019 L15,5 L1,5 L1,3.019 C1,2.722 1.224,2.481 1.5,2.481 M14.5,1.481 L12.542,1.481 L12.542,0.5 L12.542,0.5 C12.542,0.224 12.318,0 12.042,0 C11.766,0 11.542,0.224 11.542,0.5 L11.542,0.502 L11.542,1.5 L4.5,1.5 L4.5,0.5 C4.5,0.224 4.276,0 4,0 C3.724,0 3.5,0.224 3.5,0.5 L3.5,1.481 L1.5,1.481 C0.673,1.481 0,2.171 0,3.019 L0,14.463 C0,15.311 0.673,16 1.5,16 L14.5,16 C15.327,16 16,15.311 16,14.463 L16,3.019 C16,2.171 15.327,1.481 14.5,1.481" id="Page-1"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

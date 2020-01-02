@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="8px" viewBox="0 0 16 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>arrow up</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons" transform="translate(-64.000000, -213.000000)">
+            <g id="arrow-up" transform="translate(64.000000, 209.000000)">
+                <g id="Icon-Caret-Down-Copy">
+                    <rect id="16X16" x="0" y="0" width="16" height="16"></rect>
+                    <g id="Shape-Caret-Down" transform="translate(8.000000, 8.000000) rotate(-180.000000) translate(-8.000000, -8.000000) translate(0.000000, 4.000000)" fill="#9B9B9B">
+                        <path d="M15.85325,0.144905415 C15.66225,-0.046094585 15.35725,-0.047094585 15.16125,0.134905415 L15.15925,0.132905415 L7.99925,6.81490542 L0.84125,0.132905415 L0.83825,0.134905415 C0.64225,-0.047094585 0.33725,-0.046094585 0.14625,0.144905415 C-0.04875,0.339905415 -0.04875,0.656905415 0.14625,0.851905415 C0.15025,0.855905415 0.15625,0.857905415 0.16025,0.861905415 L0.15825,0.863905415 L7.65825,7.86390542 L7.66025,7.86190542 C7.85225,8.03990542 8.14725,8.03990542 8.33925,7.86190542 L8.34125,7.86390542 L15.84025,0.863905415 L15.83825,0.861905415 C15.84325,0.857905415 15.84925,0.855905415 15.85325,0.851905415 C16.04825,0.656905415 16.04825,0.339905415 15.85325,0.144905415" id="Page-1"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="14px" viewBox="0 0 16 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>heart icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="16 7.0001 16 14 0 14 0 7.0001 0 0.0002 16 0.0002 16 7.0001"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons" transform="translate(-64.000000, -719.000000)">
+            <g id="heart-icon" transform="translate(64.000000, 718.000000)">
+                <g id="Icon-Heart">
+                    <rect id="16X16" x="0" y="0" width="16" height="16"></rect>
+                    <g id="Shape-Heart" transform="translate(0.000000, 1.000000)">
+                        <g id="heart-icon">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <g id="Clip-2"></g>
+                        </g>
+                        <path d="M8,12.9352 C5.725,11.7462 1,8.7342 1,4.2502 C1,2.4582 2.458,1.0002 4.25,1.0002 C6.042,1.0002 7.5,2.4582 7.5,4.2502 C7.5,4.5262 7.724,4.7502 8,4.7502 C8.276,4.7502 8.5,4.5262 8.5,4.2502 C8.5,2.4582 9.958,1.0002 11.75,1.0002 C13.542,1.0002 15,2.4582 15,4.2502 C15,8.7342 10.275,11.7462 8,12.9352 M11.75,0.0002 C10.116,0.0002 8.711,0.9372 8,2.2932 C7.289,0.9372 5.884,0.0002 4.25,0.0002 C1.907,0.0002 0,1.9062 0,4.2502 C0,9.4382 5.437,12.7592 7.773,13.9462 L7.776,13.9412 C7.844,13.9762 7.918,14.0002 8,14.0002 C8.082,14.0002 8.156,13.9762 8.224,13.9412 L8.227,13.9462 C10.563,12.7592 16,9.4382 16,4.2502 C16,1.9062 14.094,0.0002 11.75,0.0002" id="Fill-1" fill="#9B9B9B"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -2,19 +2,22 @@ const path = require("path");
 
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
+const CopyWebpackPlugin = require("copy-webpack-plugin");
+
 module.exports = {
+  entry: "./js/index.js",
   plugins: [
     new MiniCssExtractPlugin({
       // Options similar to the same options in webpackOptions.output
       // both options are optional
-      filename: "[name].css",
-      chunkFilename: "[id].css"
-    })
+      filename: "css/epy.css"
+    }),
+    new CopyWebpackPlugin([{ from: "assets", to: "assets" }])
   ],
   module: {
     rules: [
       {
-        test: /\.css$/,
+        test: /\.scss$/,
         use: [
           {
             loader: MiniCssExtractPlugin.loader,
@@ -27,8 +30,16 @@ module.exports = {
               }
             }
           },
-          "css-loader"
+          "css-loader",
+          "sass-loader"
         ]
+      },
+      {
+        test: /\.(png|svg|jpg|gif)$/,
+        loader: "file-loader",
+        options: {
+          outputPath: "/assets/icons"
+        }
       }
     ]
   }

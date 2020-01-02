@@ -1,0 +1,210 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the button component.
+// -----------------------------------------------------------------------------
+
+@import "../abstracts/variables";
+
+// BASE
+
+.btn {
+  background-color: transparent;
+  border-radius: 4px;
+  color: $dusty-gray;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 20px;
+  height: 40px;
+  text-align: center;
+  padding: 8px 24px;
+  outline: none;
+
+  &:hover,
+  &:focus {
+    box-shadow: $x-large-shadow;
+    -webkit-box-shadow: $x-large-shadow;
+  }
+}
+
+// TYPE
+
+.btn-primary {
+  background-color: $jungle-green;
+  border: none;
+  box-shadow: $medium-shadow;
+  color: $white;
+
+  &:focus,
+  &:hover {
+    background-color: #21aa6f;
+  }
+
+  &:disabled,
+  & button[disabled] {
+    cursor: auto;
+    background-color: $silver;
+    border: 1px solid #cecece;
+  }
+
+  &.btn-outline {
+    background-color: $white;
+    border: 1px solid $jungle-green;
+    color: $jungle-green;
+    // box-shadow: none !important;
+
+    &:focus,
+    &:hover {
+      background-color: $white;
+      border: 1px solid #21aa6f;
+      color: #21aa6f;
+    }
+  }
+}
+
+.btn-outline {
+  color: $dusty-gray;
+  border: 1px solid $alto;
+  background-color: transparent;
+  box-shadow: none !important;
+
+  &:disabled,
+  & button[disabled] {
+    cursor: auto !important;
+    border: 1px solid #cecece !important;
+    color: $silver !important;
+  }
+}
+
+.btn-destructive {
+  @include btn-border-none;
+  background-color: transparent;
+  // border: 1px solid $wuzzy-brown;
+  color: $wuzzy-brown;
+
+  &:focus,
+  &:hover {
+    background-color: $white;
+  }
+
+  &.btn-outline {
+    border: 1px solid $wuzzy-brown;
+  }
+}
+
+.btn-info {
+  background-color: $java !important;
+  border: none !important;
+  box-shadow: $small-shadow;
+  padding: 8px;
+  -webkit-box-shadow: $small-shadow;
+}
+
+.btn-default {
+  background-color: $white;
+  box-shadow: $medium-shadow;
+  border: none;
+  color: $dusty-gray;
+  -webkit-box-shadow: $medium-shadow;
+
+  &:focus {
+    background-color: $white;
+  }
+}
+
+.btn-link {
+  @include btn-border-none;
+  background-color: $white;
+  color: $jungle-green;
+
+  &:hover {
+    color: $java;
+    font-weight: 600;
+  }
+
+  &:focus {
+    background-color: $white;
+    color: $niagara;
+    font-weight: 600;
+  }
+}
+
+.btn-border-none {
+  @include btn-border-none;
+}
+
+// SIZE
+
+.btn-small {
+  font-size: 12px !important;
+  height: 32px !important;
+  padding-top: 4px !important;
+  padding-bottom: 4px !important;
+  box-shadow: $small-shadow !important;
+}
+
+.btn-large {
+  font-size: 18px !important;
+  height: 48px !important;
+  box-shadow: $large-shadow !important;
+}
+
+.btn-tight {
+  min-width: 88px;
+  box-shadow: $small-shadow !important;
+}
+
+// CONTENT
+
+.btn-icon {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+// FIGURE
+.btn-square {
+  @include btn-figure;
+  box-shadow: $x-large-shadow !important;
+  height: 144px;
+  padding-bottom: 24px;
+  padding-top: 24px;
+  width: 152px;
+  &:hover,
+  &:focus {
+    box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.1) !important;
+    -webkit-box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.1) !important;
+  }
+
+  .icon,
+  img,
+  .img {
+    max-height: 72px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+  }
+}
+
+.btn-square-small {
+  @include btn-figure;
+  box-shadow: $small-shadow;
+  background-color: transparent;
+  border: 1px solid $seashell;
+  height: 32px !important;
+  min-width: 32px;
+  padding: 8px;
+  width: 32px !important;
+  -webkit-box-shadow: $small-shadow;
+}
+
+.btn-rectangle {
+  @include btn-figure;
+  box-shadow: $x-large-shadow !important;
+  height: 144px;
+  padding-bottom: 24px;
+  padding-top: 24px;
+  width: 390px;
+  &:hover,
+  &:focus {
+    box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.1) !important;
+    -webkit-box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.1) !important;
+  }
+}

@@ -1,0 +1,97 @@
+@keyframes placeHolderShimmer{
+  0%{
+      background-position: -368px 0;
+  }
+  100%{
+      background-position: 368px 0;
+  }
+}
+
+.bar-loader {
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-name: placeHolderShimmer;
+  animation-timing-function: linear;
+  background: #f6f7f8;
+  background: linear-gradient(to right, #F7F7F7 8%, #F1F1F1 18%, #F7F7F7 23%);
+  background-size: 800px 104px;
+  position: relative;
+  margin-bottom: 16px;
+  height: 16px;   
+}
+.stats-container{
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 32px;
+}
+.stat-loader {
+    padding: 5px 30px 5px 15px;
+}
+.bar-loader.title{
+  width: 25%;
+}
+.bar-loader.subtitle{
+  width: 20%;
+}
+
+.bar-loader.detail{
+  width: 92px;
+}
+.chart-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 44px;
+}
+.bar-loader.chart-loader{
+  height: 114px;
+  display: flex;
+  width: 511px;
+}
+.chart-stroke-1 {
+  height: 114px;
+  width: 200px;
+  border-right: 200px solid transparent;
+  border-top: 114px solid #fff;
+}
+.chart-stroke-2 {
+  height: 114px;
+  margin-left: -175px;
+  /* width: 200px; */
+  border-left: 140px solid transparent;
+  border-right: 100px solid transparent;
+  border-bottom: 77px solid #fff;
+}
+.chart-stroke-3 {
+  height: 114px;
+  margin-left: -127px;
+  width: 150px;
+  border-left: 108px solid transparent;
+  border-right: 200px solid transparent;
+  border-top: 80px solid #fff;
+}
+.chart-stroke-4 {
+  height: 114px;
+  margin-left: -239px;
+  /* width: 200px; */
+  border-left: 185px solid transparent;
+  border-right: 107px solid transparent;
+  border-bottom: 77px solid #fff;
+}
+.chart-stroke-5 {
+  /* height: 114px; */
+  margin-left: -138px;
+  /* width: 115px; */
+  border-left: 66px solid transparent;
+  border-right: 61px solid transparent;
+  border-top: 44px solid #fff;
+}
+.chart-stroke-6 {
+  height: 114px;
+  margin-left: -132px;
+  /* width: 200px; */
+  border-left: 156px solid transparent;
+  border-right: 0 solid transparent;
+  border-bottom: 114px solid #fff;
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>filled star icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons" transform="translate(-208.000000, -718.000000)">
+            <g id="filled-star-icon" transform="translate(208.000000, 718.000000)">
+                <g id="Icon-Star-Fill">
+                    <rect id="16X16" x="0" y="0" width="16" height="16"></rect>
+                    <g id="Shape-Star-Fill" fill="#9B9B9B">
+                        <path d="M15.9647,5.8022 C15.8967,5.6272 15.7357,5.5062 15.5497,5.4882 L10.8237,5.0142 L8.4467,0.2542 C8.2777,-0.0848 7.7227,-0.0848 7.5527,0.2542 L5.1757,5.0142 L0.4497,5.4882 C0.2637,5.5062 0.1037,5.6272 0.0347,5.8022 C-0.0343,5.9762 0.0007,6.1752 0.1237,6.3152 L3.4647,10.1392 L2.5077,15.4092 C2.4737,15.5962 2.5477,15.7862 2.6997,15.9002 C2.8507,16.0122 3.0537,16.0322 3.2237,15.9472 L7.9997,13.5552 L12.7767,15.9472 C12.8467,15.9822 12.9237,16.0002 12.9997,16.0002 C13.1067,16.0002 13.2117,15.9662 13.2997,15.9002 C13.4507,15.7862 13.5257,15.5962 13.4917,15.4092 L12.5347,10.1392 L15.8757,6.3152 C15.9997,6.1752 16.0337,5.9762 15.9647,5.8022" id="Fill-1"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

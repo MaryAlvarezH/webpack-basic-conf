@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="12px" viewBox="0 0 16 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon-Image</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons" transform="translate(-160.000000, -451.000000)">
+            <g id="Icon-Image" transform="translate(160.000000, 449.000000)">
+                <g id="picture-icon">
+                    <rect id="16X16" x="0" y="0" width="16" height="16"></rect>
+                </g>
+                <g id="Shape-Image" transform="translate(0.000000, 2.000000)" fill="#9B9B9B">
+                    <path d="M14.5,11 L1.5,11 C1.224,11 1,10.775 1,10.5 L1,10.207 L4.5,6.707 L7.646,9.854 C7.737,9.944 7.862,10 8,10 C8.048,10 8.091,9.985 8.135,9.973 L8.137,9.98 L11.479,9.026 L15,10.346 L15,10.5 C15,10.775 14.775,11 14.5,11 M1.5,1 L14.5,1 C14.775,1 15,1.224 15,1.5 L15,9.279 L11.676,8.032 L11.675,8.035 C11.62,8.015 11.562,8 11.5,8 C11.452,8 11.409,8.015 11.365,8.027 L11.362,8.02 L8.146,8.939 L4.854,5.647 C4.763,5.556 4.638,5.5 4.5,5.5 C4.362,5.5 4.237,5.556 4.146,5.647 L1,8.793 L1,1.5 C1,1.224 1.224,1 1.5,1 M14.5,0 L1.5,0 C0.673,0 0,0.673 0,1.5 L0,10.5 C0,11.327 0.673,12 1.5,12 L14.5,12 C15.327,12 16,11.327 16,10.5 L16,1.5 C16,0.673 15.327,0 14.5,0" id="Fill-1"></path>
+                    <path d="M11.5,3 C12.327,3 13,3.673 13,4.5 C13,5.327 12.327,6 11.5,6 C10.673,6 10,5.327 10,4.5 C10,3.673 10.673,3 11.5,3 M11.5,7 C12.879,7 14,5.878 14,4.5 C14,3.122 12.879,2 11.5,2 C10.121,2 9,3.122 9,4.5 C9,5.878 10.121,7 11.5,7" id="Fill-3"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

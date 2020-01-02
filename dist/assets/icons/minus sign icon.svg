@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="2px" viewBox="0 0 12 2" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>minus sign icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons" transform="translate(-113.000000, -631.000000)">
+            <g id="minus-sign-icon" transform="translate(111.000000, 624.000000)">
+                <g id="Icon-Minus">
+                    <rect id="16X16" x="0" y="0" width="16" height="16"></rect>
+                    <g id="Shape-Minus" transform="translate(2.000000, 7.500000)" fill="#9B9B9B">
+                        <path d="M0.5,0 C0.224,0 0,0.224 0,0.5 C0,0.776 0.224,1 0.5,1 L11.5,1 C11.776,1 12,0.776 12,0.5 C12,0.224 11.776,0 11.5,0 L0.5,0 Z" id="Page-1"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

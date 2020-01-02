@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>download icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Iconografía-Copy-3" transform="translate(-195.000000, -182.000000)">
+            <g id="download-icon" transform="translate(195.000000, 182.000000)">
+                <g id="Icon-Share">
+                    <rect id="16X16" x="0" y="0" width="16" height="16"></rect>
+                    <g id="Shape-Share" fill="#9B9B9B">
+                        <path d="M15,12.6237793 L15,14.5 C15,14.775 14.775,15 14.5,15 L1.5,15 C1.224,15 1,14.775 1,14.5 L1,12.6237793 C1,12.3477793 0.776,12.1237793 0.5,12.1237793 C0.224,12.1237793 0,12.3477793 0,12.6237793 L0,14.5 C0,15.327 0.673,16 1.5,16 L14.5,16 C15.327,16 16,15.327 16,14.5 L16,12.6237793 C16,12.3477793 15.776,12.1237793 15.5,12.1237793 C15.224,12.1237793 15,12.3477793 15,12.6237793 Z" id="Fill-1"></path>
+                        <path d="M4.5,5 C4.65,5 4.781,4.93 4.872,4.826 L4.876,4.829 L7.5,1.831 L7.5,10.5 C7.5,10.776 7.724,11 8,11 C8.276,11 8.5,10.776 8.5,10.5 L8.5,1.831 L11.124,4.829 L11.128,4.826 C11.219,4.931 11.35,5 11.5,5 C11.776,5 12,4.776 12,4.5 C12,4.374 11.949,4.262 11.872,4.174 L11.876,4.171 L8.376,0.171 L8.372,0.174 C8.281,0.07 8.15,0 8,0 C7.85,0 7.719,0.07 7.628,0.174 L7.624,0.171 L4.124,4.171 L4.128,4.174 C4.051,4.262 4,4.374 4,4.5 C4,4.776 4.224,5 4.5,5" id="Fill-3" transform="translate(8.000000, 5.500000) rotate(-180.000000) translate(-8.000000, -5.500000) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

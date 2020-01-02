@@ -1,0 +1,81 @@
+// -----------------------------------------------------------------------------
+// This file contains very basic styles.
+// -----------------------------------------------------------------------------
+@import "../abstracts/variables";
+/**
+ * Set up a decent box model on the root element
+ */
+html {
+  box-sizing: border-box;
+}
+
+/**
+ * Make all elements from the DOM inherit from the parent box-sizing
+ * Since `*` has a specificity of 0, it does not override the `html` value
+ * making all elements inheriting from the root box-sizing value
+ * See: https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
+ */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/**
+ * Basic styles
+ */
+
+body {
+  color: $dusty-gray;
+
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+    background-color: #f5f5f5;
+  }
+  ::-webkit-scrollbar-thumb {
+    border-radius: 0px;
+    background-color: #bdbdbd;
+  }
+
+  ::-webkit-scrollbar-track {
+    border-radius: 0px;
+    background-color: #f5f5f5;
+  }
+}
+
+.content-green {
+  background-color: $jungle-green;
+}
+
+.content-blue {
+  background-color: $java;
+}
+
+.content-red {
+  background-color: $wuzzy-brown;
+}
+
+.content-yellow {
+  background-color: $bus-yellow;
+}
+
+.content-light-green {
+  background-color: $yellow-green;
+}
+
+.content-lavander {
+  background-color: $lavander;
+}
+
+.content-purple {
+  background-color: $royal-purple;
+}
+
+i.left {
+  margin-right: 0;
+}
+
+i.right {
+  margin-left: 0;
+}

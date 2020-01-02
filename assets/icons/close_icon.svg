@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" shape-rendering="optimizeQuality">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>close off icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g shape-rendering="optimizeQuality" id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g shape-rendering="optimizeQuality" id="icons" transform="translate(-112.000000, -401.000000)">
+            <g shape-rendering="optimizeQuality" id="close-off-icon" transform="translate(112.000000, 401.000000)">
+                <g shape-rendering="optimizeQuality" id="Icon-Circle-Cross">
+                    <rect id="16X16" x="0" y="0" width="16" height="16"></rect>
+                    <g shape-rendering="optimizeQuality" id="Shape-Circle-Cross" fill="#9B9B9B">
+                        <path shape-rendering="optimizeQuality" d="M8,15 C4.14,15 1,11.859 1,8 C1,4.14 4.14,1 8,1 C11.859,1 15,4.14 15,8 C15,11.859 11.859,15 8,15 M8,0 C3.589,0 0,3.589 0,8 C0,12.411 3.589,16 8,16 C12.411,16 16,12.411 16,8 C16,3.589 12.411,0 8,0" id="Fill-1"></path>
+                        <path shape-rendering="optimizeQuality" d="M11.3534,5.3536 C11.4444,5.2626 11.5004,5.1376 11.5004,4.9996 C11.5004,4.7236 11.2764,4.4996 11.0004,4.4996 C10.8614,4.4996 10.7364,4.5556 10.6464,4.6466 L8.0004,7.2926 L5.3534,4.6466 C5.2634,4.5566 5.1384,4.4996 5.0004,4.4996 C4.7234,4.4996 4.5004,4.7236 4.5004,4.9996 C4.5004,5.1376 4.5564,5.2626 4.6464,5.3536 L7.2934,7.9996 L4.6464,10.6466 C4.5564,10.7366 4.5004,10.8616 4.5004,10.9996 C4.5004,11.2756 4.7234,11.4996 5.0004,11.4996 C5.1384,11.4996 5.2634,11.4436 5.3534,11.3536 L8.0004,8.7066 L10.6464,11.3536 C10.7374,11.4436 10.8624,11.4996 11.0004,11.4996 C11.2764,11.4996 11.5004,11.2756 11.5004,10.9996 C11.5004,10.8616 11.4444,10.7366 11.3534,10.6466 L8.7074,7.9996 L11.3534,5.3536 Z" id="Fill-3" opacity="0.98999995"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

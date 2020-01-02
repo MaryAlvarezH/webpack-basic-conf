@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>check on icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons" transform="translate(-208.000000, -401.000000)">
+            <g id="check-on-icon" transform="translate(208.000000, 401.000000)">
+                <g id="Icon-Circle-Check-Copy">
+                    <rect id="16X16" x="0" y="0" width="16" height="16"></rect>
+                    <g id="Shape-Circle-Check" fill="#26C580">
+                        <path d="M8,15 C4.14,15 1,11.859 1,8 C1,4.14 4.14,1 8,1 C11.859,1 15,4.14 15,8 C15,11.859 11.859,15 8,15 M8,0 C3.589,0 0,3.589 0,8 C0,12.411 3.589,16 8,16 C12.411,16 16,12.411 16,8 C16,3.589 12.411,0 8,0" id="Fill-1"></path>
+                        <path d="M12,5 C11.862,5 11.737,5.056 11.646,5.147 L6.969,9.824 L4.32,7.616 L4.316,7.621 C4.229,7.549 4.122,7.5 4,7.5 C3.724,7.5 3.5,7.724 3.5,8 C3.5,8.154 3.574,8.287 3.684,8.379 L3.68,8.384 L6.68,10.884 L6.684,10.879 C6.771,10.951 6.878,11 7,11 C7.138,11 7.263,10.944 7.354,10.853 L12.353,5.854 C12.444,5.763 12.5,5.638 12.5,5.5 C12.5,5.224 12.276,5 12,5" id="Fill-3"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

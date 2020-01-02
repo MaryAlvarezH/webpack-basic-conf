@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="16px" viewBox="0 0 12 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon-Arrow-Up</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0.00035 15.9961 11.99985 15.9961 11.99985 0.0001 0.00035 0.0001 0.00035 15.9961"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons" transform="translate(-66.000000, -576.000000)">
+            <g id="Icon-Arrow-Up" transform="translate(64.000000, 576.000000)">
+                <rect id="16X16" x="0" y="0" width="16" height="16"></rect>
+                <g id="Shape-Arrow-Up" transform="translate(2.000000, 0.000000)">
+                    <g id="arrow-up-icon">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Clip-2"></g>
+                    </g>
+                    <path d="M11.8536,5.1425 C11.8476,5.1365 11.8396,5.1345 11.8336,5.1285 L11.8356,5.1255 L6.3366,0.1255 L6.3336,0.1295 C6.1436,-0.0435 5.8566,-0.0435 5.6666,0.1295 L5.6636,0.1255 L0.1636,5.1255 L0.1666,5.1295 C0.1606,5.1345 0.1526,5.1365 0.1466,5.1425 C-0.0484,5.3375 -0.0484,5.6545 0.1466,5.8495 C0.3356,6.0385 0.6376,6.0405 0.8336,5.8625 L0.8366,5.8665 L5.4996,1.6265 L5.4996,15.4965 C5.4996,15.7725 5.7236,15.9965 5.9996,15.9965 C6.2766,15.9965 6.4996,15.7725 6.4996,15.4965 L6.4996,1.6265 L11.1636,5.8665 L11.1666,5.8635 C11.3636,6.0405 11.6646,6.0385 11.8536,5.8495 C12.0486,5.6545 12.0486,5.3375 11.8536,5.1425" id="Fill-1" fill="#9B9B9B"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

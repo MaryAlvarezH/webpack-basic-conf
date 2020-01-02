@@ -1,0 +1,71 @@
+// // -----------------------------------------------------------------------------
+// // This file contains all application-wide Sass variables.
+// // -----------------------------------------------------------------------------
+
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+
+// Fonts
+$main-font: "Source Sans Pro";
+$aux-font: "Open Sans";
+
+// Primary colors
+$jungle-green: #26c580;
+$mountain-meadow: #20ab6f;
+$algae-green: #92ddb5;
+
+$java: #22b5b5;
+$niagara: #089aa6;
+$aqua-island: #abdedf;
+
+// Secondary colors
+$yellow-green: #b8e986;
+$conifer: #97dd50;
+$tusk: #e1f6cc;
+
+$lavander: #bb6ad4;
+$purple-heart: #9c2dbd;
+$french-lilac: #e2bfec;
+
+$royal-purple: #8336b0;
+$daisy-bush: #5e2c9e;
+$amethyst: #a253c3;
+
+// Gray variation
+$dune: #2e2a25;
+$dove-gray: #717171;
+$dusty-gray: #9b9b9b;
+$silver: #c7c7c7;
+$alto: #d4d4d4;
+$seashell: #f1f1f1;
+$albaster: #f7f7f7;
+
+$white: #ffffff;
+
+// Others
+$sherpa-blue: #003e52;
+$matisse: #1c7593;
+$wuzzy-brown: #c55757;
+$bus-yellow: #ffde03;
+
+// Shadows
+$small-shadow: 0 1px 1px 0 rgba(212, 212, 212, 0.5);
+$medium-shadow: 0 2px 2px 0 rgba(212, 212, 212, 0.5);
+$large-shadow: 0 2px 2px 0 rgba(212, 212, 212, 0.51);
+$x-large-shadow: 0 2px 4px 0 rgba(212, 212, 212, 0.5);
+
+// Gradients
+$green-gradient: linear-gradient(90deg, $java 0%, $jungle-green 100%);
+$blue-gradient: linear-gradient(270deg, #29bbc6 100%, $matisse 0%);
+$loader-gradient: linear-gradient(
+  to right,
+  $albaster 8%,
+  $seashell 18%,
+  $albaster 23%
+);
+$loader-gradient-dark: linear-gradient(
+  to right,
+  $albaster 8%,
+  $seashell 18%,
+  $albaster 23%
+);

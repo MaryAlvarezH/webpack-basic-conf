@@ -1,21 +1,27 @@
 {
   "name": "epy-styles",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack && open index.html",
-    "build": "webpack --watch --mode development"
+    "start": "webpack && google-chrome index.html",
+    "build": "webpack"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "css-loader": "^3.4.0",
+    "file-loader": "^5.0.2",
+    "copy-webpack-plugin": "^5.1.1",
     "mini-css-extract-plugin": "^0.9.0",
+    "node-sass": "^4.13.0",
+    "sass-loader": "^8.0.0",
     "style-loader": "^1.1.2",
     "webpack": "^4.41.5",
     "webpack-cli": "^3.3.10"
   },
-  "dependencies": {}
+  "dependencies": {
+    "materialize-css": "^1.0.0"
+  }
 }
